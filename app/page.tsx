@@ -63,7 +63,9 @@ export default function Home() {
               onClick={() => setShowGameplay(true)}
               className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
             >
-              Click here to see bot's gameplay 🎮
+              <p className="mt-4 text-xl text-gray-300 font-medium">
+  {`Click here to see bot's gameplay 🎮`}
+</p>
             </button>
           </div>
         )}
